@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/bogdany-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/bogdany-portfolio/static/js/main.6b258da9.js",
+    "main.css": "/bogdany-portfolio/static/css/main.e35e92b2.css",
+    "main.js": "/bogdany-portfolio/static/js/main.b8d40c29.js",
     "static/js/787.30237536.chunk.js": "/bogdany-portfolio/static/js/787.30237536.chunk.js",
-    "static/media/logo.svg": "/bogdany-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/mylife.jpg": "/bogdany-portfolio/static/media/mylife.11a1ea6b2e9564c8caad.jpg",
+    "static/media/RCNPrototype.jpg": "/bogdany-portfolio/static/media/RCNPrototype.411afcd040fb7d0ffa94.jpg",
+    "static/media/wfssWebsite2.jpg": "/bogdany-portfolio/static/media/wfssWebsite2.5d1ac2e3d1f47bfe7e33.jpg",
     "index.html": "/bogdany-portfolio/index.html",
-    "main.073c9b0a.css.map": "/bogdany-portfolio/static/css/main.073c9b0a.css.map",
-    "main.6b258da9.js.map": "/bogdany-portfolio/static/js/main.6b258da9.js.map",
+    "main.e35e92b2.css.map": "/bogdany-portfolio/static/css/main.e35e92b2.css.map",
+    "main.b8d40c29.js.map": "/bogdany-portfolio/static/js/main.b8d40c29.js.map",
     "787.30237536.chunk.js.map": "/bogdany-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6b258da9.js"
+    "static/css/main.e35e92b2.css",
+    "static/js/main.b8d40c29.js"
   ]
 }
