@@ -1,11 +1,13 @@
 import React from "react";
-//import './Card.css';
+import './Card.css';
 
 export default function Card(props) {
 
+    var learnMore = "Learn more ->";
+
 
     return (
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <div class="max-w-sm rounded overflow-hidden ">
             {/* <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" /> */}
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">{props.title}</div>
@@ -14,6 +16,9 @@ export default function Card(props) {
                 })}
                 <p class="text-gray-700 text-base">
                     {props.description}
+                </p>
+                <p className="learn-more">
+                    {learnMore}
                 </p>
             </div>
             <div class="px-6 pt-4 pb-2">

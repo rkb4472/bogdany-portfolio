@@ -9,9 +9,11 @@ body {
 }
 
 .my-card {
-  width: 1000px;
+  width: 884px;
   margin: auto;
   position: relative;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 .inside-card {
@@ -19,7 +21,39 @@ body {
   top: 50%;
   transform: translateY(-50%);
   left: 500px;
-  background-color: peachpuff;
+  background-color: #f8c8c8;
+  border: 2px solid rgb(241, 214, 191);
+}
+
+img {
+  border: 2px solid black;
+}
+
+.inside-card:hover {
+  background-color:#feafaf;
+  cursor:pointer;
+
+}
+
+@media only screen and (max-width: 900px) {
+  .my-card {
+    width:94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  img {
+    width: 384px;
+    margin: auto;
+  }
+  .inside-card {
+    display: block;
+    position:relative;
+    top: 0;
+    transform: translateY(0);
+    left: 0;
+    width: fit-content;
+    margin:auto;
+  }
 }
 
 /* .App {
