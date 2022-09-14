@@ -1,0 +1,13 @@
+.my-intro {
+    width: 70%
+
+}
+
+.my-introduction {
+    line-height: 1.5em!important;
+}
+
+.my-name {
+    display: inline;
+    background-image: linear-gradient(#fff 60%, #fdacac 55%);
+}
