@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route, Link } from 'react-router-dom'
 
 export default function Navigation() {
     return (
@@ -6,9 +7,11 @@ export default function Navigation() {
 
             <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div class="text-sm lg:flex-grow">
-                    <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4">
+                    <Link to = "/">
+                        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4">
                         HOME
-                    </a>
+                        </a>
+                    </Link>
                     <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white mr-4">
                         PROJECTS
                     </a>
