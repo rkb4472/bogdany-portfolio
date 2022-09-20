@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/bogdany-portfolio/static/css/main.94c8a1d7.css",
-    "main.js": "/bogdany-portfolio/static/js/main.848dc7e1.js",
+    "main.css": "/bogdany-portfolio/static/css/main.84a4ded7.css",
+    "main.js": "/bogdany-portfolio/static/js/main.93ad9ae1.js",
     "static/js/787.30237536.chunk.js": "/bogdany-portfolio/static/js/787.30237536.chunk.js",
     "static/media/text_message.png": "/bogdany-portfolio/static/media/text_message.1285114edd8eca279cd1.png",
+    "static/media/wfss_overview.png": "/bogdany-portfolio/static/media/wfss_overview.4464f769a0480e21a367.png",
     "static/media/widget.png": "/bogdany-portfolio/static/media/widget.b916506ea9fed5f7801c.png",
+    "static/media/popup.png": "/bogdany-portfolio/static/media/popup.4b3bd309393eb650ac15.png",
+    "static/media/mylife_overview.png": "/bogdany-portfolio/static/media/mylife_overview.cbc0b5bda8682f1d6386.png",
+    "static/media/empathy_map.png": "/bogdany-portfolio/static/media/empathy_map.9d72b8b56dbdd0905a01.png",
     "static/media/user-journey-map.png": "/bogdany-portfolio/static/media/user-journey-map.6e94d9064fa82d99048a.png",
+    "static/media/old_flow.png": "/bogdany-portfolio/static/media/old_flow.1e1e6fdfeb5f57b45f4e.png",
     "static/media/rcn_overview.png": "/bogdany-portfolio/static/media/rcn_overview.1bdff0e9c33e2228dec2.png",
     "static/media/mylife.jpg": "/bogdany-portfolio/static/media/mylife.11a1ea6b2e9564c8caad.jpg",
+    "static/media/sketch1.jpg": "/bogdany-portfolio/static/media/sketch1.a8d8e3505cb8376dab43.jpg",
     "static/media/RCNPrototype.jpg": "/bogdany-portfolio/static/media/RCNPrototype.411afcd040fb7d0ffa94.jpg",
+    "static/media/popupsketch2.jpg": "/bogdany-portfolio/static/media/popupsketch2.4ee78a7c0d8bf80b42fc.jpg",
     "static/media/wfssWebsite2.jpg": "/bogdany-portfolio/static/media/wfssWebsite2.5d1ac2e3d1f47bfe7e33.jpg",
+    "static/media/new_flow.png": "/bogdany-portfolio/static/media/new_flow.4dd75445bb302b94f887.png",
     "index.html": "/bogdany-portfolio/index.html",
-    "main.94c8a1d7.css.map": "/bogdany-portfolio/static/css/main.94c8a1d7.css.map",
-    "main.848dc7e1.js.map": "/bogdany-portfolio/static/js/main.848dc7e1.js.map",
+    "main.84a4ded7.css.map": "/bogdany-portfolio/static/css/main.84a4ded7.css.map",
+    "main.93ad9ae1.js.map": "/bogdany-portfolio/static/js/main.93ad9ae1.js.map",
     "787.30237536.chunk.js.map": "/bogdany-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94c8a1d7.css",
-    "static/js/main.848dc7e1.js"
+    "static/css/main.84a4ded7.css",
+    "static/js/main.93ad9ae1.js"
   ]
 }
