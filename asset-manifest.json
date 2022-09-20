@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/bogdany-portfolio/static/css/main.67c0a01d.css",
-    "main.js": "/bogdany-portfolio/static/js/main.24e907a9.js",
+    "main.css": "/bogdany-portfolio/static/css/main.94c8a1d7.css",
+    "main.js": "/bogdany-portfolio/static/js/main.848dc7e1.js",
     "static/js/787.30237536.chunk.js": "/bogdany-portfolio/static/js/787.30237536.chunk.js",
+    "static/media/text_message.png": "/bogdany-portfolio/static/media/text_message.1285114edd8eca279cd1.png",
+    "static/media/widget.png": "/bogdany-portfolio/static/media/widget.b916506ea9fed5f7801c.png",
+    "static/media/user-journey-map.png": "/bogdany-portfolio/static/media/user-journey-map.6e94d9064fa82d99048a.png",
+    "static/media/rcn_overview.png": "/bogdany-portfolio/static/media/rcn_overview.1bdff0e9c33e2228dec2.png",
     "static/media/mylife.jpg": "/bogdany-portfolio/static/media/mylife.11a1ea6b2e9564c8caad.jpg",
     "static/media/RCNPrototype.jpg": "/bogdany-portfolio/static/media/RCNPrototype.411afcd040fb7d0ffa94.jpg",
     "static/media/wfssWebsite2.jpg": "/bogdany-portfolio/static/media/wfssWebsite2.5d1ac2e3d1f47bfe7e33.jpg",
     "index.html": "/bogdany-portfolio/index.html",
-    "main.67c0a01d.css.map": "/bogdany-portfolio/static/css/main.67c0a01d.css.map",
-    "main.24e907a9.js.map": "/bogdany-portfolio/static/js/main.24e907a9.js.map",
+    "main.94c8a1d7.css.map": "/bogdany-portfolio/static/css/main.94c8a1d7.css.map",
+    "main.848dc7e1.js.map": "/bogdany-portfolio/static/js/main.848dc7e1.js.map",
     "787.30237536.chunk.js.map": "/bogdany-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67c0a01d.css",
-    "static/js/main.24e907a9.js"
+    "static/css/main.94c8a1d7.css",
+    "static/js/main.848dc7e1.js"
   ]
 }
