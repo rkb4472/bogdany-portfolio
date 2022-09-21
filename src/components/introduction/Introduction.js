@@ -4,11 +4,13 @@ import './Introduction.css';
 export default function Introduction() {
     return (
         <div>
-            <div>
+            <div className="ml-2 mr-2">
                 <p className="major text-3xl">Hi, <span className="my-name">I'm Renee Bogdany.</span></p>
-                <p className="major italic">-- third-year human centered computing student --</p>
-                <p className="my-introduction major text-xl">
-                   I'm a third-year human-centered computing student at Rochester Institute of Technology. I'm interested in UX Design and Research.
+                <p className="major italic">UX Design and Research</p>
+                <p className="mx-auto max-w-5xl my-introduction major text-xl">
+                I'm a third year human centered computing student at Rochester Institute of Technology (RIT). I'm passionate about
+                creating intuitive and accessible interfaces. I'm currently looking for a co-op 
+                or internship position in UX Design or Research for 2023.
                 </p>
             </div>
             {/* <div><p>Don't have a lot of time? Follow this link for a summary of my work: </p><a href="">Summary</a></div> */}

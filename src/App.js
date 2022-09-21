@@ -2,6 +2,7 @@
 //import CardComponent from './components/CardComponent';
 import Navigation from './components/navigation/Navigation.js';
 import Introduction from './components/introduction/Introduction.js';
+import Footer from './components/Footer/Footer.js';
 import Card from './components/Card/Card.js';
 import rcn from './img/RCNPrototype.jpg';
 import wfss from './img/wfssWebsite2.jpg';
@@ -9,6 +10,9 @@ import mylife from './img/mylife.jpg';
 import Rcnpage from './components/RCN/RCN.js';
 import Mylifepage from './components/MyLife/Mylife.js';
 import Wfsspage from './components/WFSS/Wfss';
+import email from './img/email.jpg';
+import github from './img/github.jpg';
+import linkedin from './img/linkedin2.jpg';
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom'
 
@@ -30,6 +34,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Intro />} />
+        {/* <Route path="/resume" element={<Resume />} /> */}
         <Route path="/rcnproject" element={<Rcnproject />} />
         <Route path="/mylifeproject" element={<Mylifeproject />} />
         <Route path="/wfssproject" element={<Wfssproject />} />
@@ -42,9 +47,9 @@ function App() {
 // <Link to = "path"> </Link>
 
 function Intro(props) {
-  var myLifeDescript = "For a class project, I worked in a group of three people in order to analyze and redesign the RIT housing and dining website, so that students could have an better experience applying for housing and dining plans, as well as make improvements to other areas "
-  var rcnDescript = "My group, which included three other members, and I created a prototype of a mobile app using Figma in a week for Rochester Childfirst Network (RCN) that improved the process of student pick-up and drop-off for both parents and workers at RCN as a part of the."
-  var wfssDescript = "I participated in a UX Studio Design competition at RIT, where we were challenged to redesign a charity's website. The organization, Water for South Sudan (WFSS), presented their current website, as well as the problems with the design of their current website. "
+  var myLifeDescript = "Analyzed and redesigned the RIT housing and dining website, in order to improve navigation and user flow in the student application process, so users can complete the applications easier and quicker. "
+  var rcnDescript = "Created a mobile app prototype utilizing Figma for the Rochester Childfirst Netowrk (RCN), which increased the overall efficiency of student pick-up and drop-off, as a part of a competition. The project was selected by the representatives from RCN to win the competition."
+  var wfssDescript = "Created a prototype in Figma in order to improve navigation of the site, so that users could more easily find the relevant section to achieve their end goals. Conducted user studies and analyzed results in order to improve the proposed prototype."
   return (
     <div className="App">
 
@@ -53,10 +58,10 @@ function Intro(props) {
       <Introduction />
 
       <div class="my-card">
-        <img src={rcn} alt="RCN Prototype" />
+        <img className="intro-img" src={rcn} alt="RCN Prototype" />
         <Link to="/rcnproject">
           <div class="inside-card">
-            <Card title="Mobile App Prototype Challenge" description={rcnDescript} tags={['Figma', 'Prototyping', 'User Testing']} />
+            <Card title="RCN Design" description={rcnDescript} tags={['Figma', 'Mobile App', 'Prototyping']} />
           </div>
         </Link>
       </div>
@@ -64,22 +69,31 @@ function Intro(props) {
 
 
       <div class="my-card">
-        <img src={mylife} alt="mylife" />
+        <img className="intro-img" src={mylife} alt="mylife" />
         <Link to="/mylifeproject">
           <div class="inside-card">
-            <Card title="RIT myLife Redesign" description={myLifeDescript} tags={['Figma', 'Prototyping', 'User Testing']} />
+            <Card title="RIT myLife Redesign" description={myLifeDescript} tags={['Figma', 'Website', 'Prototyping', 'Usability Testing']} />
           </div>
         </Link>
       </div>
 
       <div class="my-card">
-        <img src={wfss} alt="mylife" />
+        <img className="intro-img" src={wfss} alt="mylife" />
         <Link to="/wfssproject">
           <div class="inside-card">
-            <Card title="Website Prototype Challenge" description={wfssDescript} tags={['Figma', 'Prototyping', 'User Testing']} />
+            <Card title="WFSS Redesign" description={wfssDescript} tags={['Figma', 'Website', 'User Testing']} />
           </div>
         </Link>
       </div>
+
+      <div class="contact flex gap-5">
+        <a href="https://www.linkedin.com/in/reneebogdany/"><img src={linkedin} alt="linkedin logo" width="50" /></a>
+        <a href="https://github.com/rkb4472"><img src={github} alt="github logo" width="50" /></a>
+        <a href="mailto:rkb4472@g.rit.edu"><img src={email} alt="github logo" width="50" /></a>
+      </div>
+
+      <Footer />
+
     </div>
   );
 }
@@ -109,5 +123,11 @@ function Wfssproject(props) {
 
   );
 }
+
+// function Resume(props) {
+//   return(
+
+//   );
+// }
 
 export default App;
