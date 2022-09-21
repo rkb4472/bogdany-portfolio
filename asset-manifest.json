@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bogdany-portfolio/static/css/main.84a4ded7.css",
-    "main.js": "/bogdany-portfolio/static/js/main.93ad9ae1.js",
+    "main.css": "/bogdany-portfolio/static/css/main.704fc9b2.css",
+    "main.js": "/bogdany-portfolio/static/js/main.d069f733.js",
     "static/js/787.30237536.chunk.js": "/bogdany-portfolio/static/js/787.30237536.chunk.js",
     "static/media/text_message.png": "/bogdany-portfolio/static/media/text_message.1285114edd8eca279cd1.png",
     "static/media/wfss_overview.png": "/bogdany-portfolio/static/media/wfss_overview.4464f769a0480e21a367.png",
@@ -19,12 +19,12 @@
     "static/media/wfssWebsite2.jpg": "/bogdany-portfolio/static/media/wfssWebsite2.5d1ac2e3d1f47bfe7e33.jpg",
     "static/media/new_flow.png": "/bogdany-portfolio/static/media/new_flow.4dd75445bb302b94f887.png",
     "index.html": "/bogdany-portfolio/index.html",
-    "main.84a4ded7.css.map": "/bogdany-portfolio/static/css/main.84a4ded7.css.map",
-    "main.93ad9ae1.js.map": "/bogdany-portfolio/static/js/main.93ad9ae1.js.map",
+    "main.704fc9b2.css.map": "/bogdany-portfolio/static/css/main.704fc9b2.css.map",
+    "main.d069f733.js.map": "/bogdany-portfolio/static/js/main.d069f733.js.map",
     "787.30237536.chunk.js.map": "/bogdany-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84a4ded7.css",
-    "static/js/main.93ad9ae1.js"
+    "static/css/main.704fc9b2.css",
+    "static/js/main.d069f733.js"
   ]
 }
