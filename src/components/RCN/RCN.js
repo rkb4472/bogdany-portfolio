@@ -3,6 +3,8 @@ import './RCN.css';
 import rcn from '../../img/rcn_overview.png';
 import Footer from '../Footer/Footer.js';
 import map from '../../img/user-journey-map.png';
+import homescreen from '../../img/homescreen.png';
+import homescreen2 from '../../img/homescreen2.png';
 import text from '../../img/text_message.png';
 import widget from '../../img/widget.png';
 import Navigation from '../navigation/Navigation'
@@ -82,6 +84,31 @@ export default function RCN() {
                     <div className="figma-link mx-auto link-div">
                         <a href="https://www.figma.com/proto/svDdzXKIth37iXbnoy2NFr/Rochester-Childfirst-Network-App?node-id=51%3A928&starting-point-node-id=51%3A928&scaling=scale-down&show-proto-sidebar=1">Figma Prototype Link</a>
                     </div>
+                </div>
+
+                <div className="section">
+                    <h1>My Part in the Project</h1>
+                    <p>We didn't have a lot of time to complete this project, so we all collaborated and discussed ideas for the entire app. However, my main focus was solving the following question:</p>
+                    <p className="mini-heading">
+                        How do we create an easy to use home screen for parents?
+                    </p>
+                    <div className="imgDiv">
+                    <img src={homescreen} alt="homescreen" width="200" />
+                    <img src={homescreen2} alt="homescreen" width="200"/>
+                    </div>
+                   
+                    <p>One important thing that we had to consider when building this app was that some of the parents would not be too familiar with technology.
+                        We really wanted to focus on making something that was simple and easy to use. One important part of the app was designing the home screen of
+                        the app. This had one of the most important functions that RCN wanted on it, which was parents notifying the school that they would be late to picking up their
+                        kid. Instead of having the usual bottom navigation that apps have, we decided to hide away the options of schedule and profile. These could be important parts of the app
+                        and we still wanted parents to be able to find them, and we thought by having the 'More Options' text and the bottom arrow, parents would still be able to find these options.
+                        But we thought the best way to achieve our stakeholder's goals was by having the only information on the home screen be the most important parts of the app to the business,
+                        so parents would not be distracted by other parts of the app.
+                        This is why we included the reminder for the parents to pick up or drop off their child in the biggest and boldest font. We also included important information for parents,
+                        such as reminders and location. And one of the most important things to RCN was parents reporting a change of plans, so we included a button for that functionality in a place
+                        that would easily be found and accessed by parents. If it is easier for parents to find and complete this action, it would be more likely that they would complete it.
+                    </p>
+
                 </div>
 
                 <div className="section">

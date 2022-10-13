@@ -11,7 +11,7 @@ export default function Mylife() {
 
     var x1 = "There was confusion when users were trying edit the meal plan (after they already selected it once). Users did not know where to go to edit meal plan. Some users went to the modify or cancel section (not realizing this was only for housing).";
     var arrow = " -> ";
-    var y1 = "We would like to improve the housing and dining application process by separating the housing process from the meal plan process to elimate confusion. The subsections for housing would be under housing, and all the meal plan subsections would be grouped as well. This would make the process to change and edit less confusing. When the user is first filling out the application, the button will say ‘start’ and then when they are finished, this button will be ‘edit’ so it is clear that they are able to go back and edit.";
+    var y1 = "We would like to improve the housing and dining application process by separating the housing process from the meal plan process to elimate confusion. The subsections for housing would be under housing, and all the meal plan subsections would be grouped as well. This would make the process to change and edit less confusing.";
 
     return (
         <div>
@@ -173,6 +173,7 @@ export default function Mylife() {
                     <div>
                         <ol>
                             <li>{x1}<span className="arrow font-bold">{arrow}</span>{y1} </li>
+                            <li>Users were confused about whether they had started an application or not, because whether they had submitted the application or not, the button to navigate into the application would just say 'continue'. <span className="arrow font-bold">{arrow}</span>When the user is first filling out the application, the button will say ‘start’ and then when they are finished, this button will be ‘edit’ so it is clear that they are able to go back and edit.</li>
                             {/* <li>Users were also confused if they had to click submit again after editing the application or if they could just hit save and continue (some went through and hit submit again and some did not).</li> */}
                             <li>One user (who had never filled out a housing application before) was at first confused about filling out the application and skipped to the room preference section thinking that might be all that needed to be completed, but they eventually figured out that they had to go through all of the sections to complete the application.<span className="arrow font-bold">{arrow}</span>We would also like to add more instruction before completing the application for first time users, so they do not get confused.</li>
                             <li>It is unclear if they can jump from section to section on the housing application when they go back to edit. One user went through all of the pages (and clicked save and continue each time) in order to get back to the meal plan, and they noted in the last question of the google form that “The only thing that was a little difficult was getting to the meal plan from the housing and dining tab, it took a lot of clicks.”<span className="font-bold">{arrow}</span>It should also be made more clear that users can click on the left links when going back to edit their housing application (so they don’t have to navigate through all the pages again if they want to go to a certain section). The first time they fill out these sections, this would be blocked, so they cannot jump forward (to prevent first time users from making mistakes and ensure that the user knows they have to complete all the sections on the application).</li>
@@ -191,14 +192,42 @@ export default function Mylife() {
                         <a href="https://www.figma.com/proto/rzILLYdQGzcSFDDgBNa0kf/Hi-Fi-Prototype?node-id=6%3A1767&scaling=scale-down&page-id=2%3A47&starting-point-node-id=6%3A1767&show-proto-sidebar=1">Hi-fi prototype Figma link</a>
                     </div>
                 </div>
-                {/* <div className="section">
+                <div className="section">
                     <h1>
                         Second Usability Test
                     </h1>
                     <p>
-                        info here
+                        We completed another usability test on our hi-fidelity prototype. We used another welcome script to ensure consistency between different participants. We used the
+                        same survey as the last usability test, but we used slightly different tasks.
                     </p>
-                </div> */}
+                    <p className="mini-heading"> Welcome Script</p>
+                    <p>Hi, I’m going to be walking you through this test today. Before we start, we have some information for you. You may have some idea of why we asked you to be here today, but I will go over it again briefly. We are looking to test our high fidelity prototype in order to analyze our improvements from our low fidelity prototype. The first thing I want to make clear right away is that we’re testing our design, not you. You can’t do anything wrong here or make any mistakes. You will be asked a series of tasks to complete, and I encourage you to talk through your thinking and what you’re trying to do, so that I can take notes and understand your thought process. After these tasks have been completed, you will be asked to fill out a short google form. Also, please don’t worry that you’re going to hurt our feelings. We’re doing this to improve the site, so we need to hear your honest reactions. If you have any questions as we go along, just ask them. I may not be able to answer them right away, since we’re interested in how people do when they don’t have someone sitting next to them to help. But if you still have any questions when we’re done I’ll try to answer them then. And if you need to take a break at any point, just let me know. Lastly, you will be asked to sign a consent form in order to allow me to record your screen and your comments via zoom. Once this form is signed we will begin the test.</p>
+                    <p className="mini-heading">Tasks</p>
+                    <div>
+                        <ol>
+                            <li>You no longer need campus housing and you want to change your meal plan for the 21-22 academic year. Log in and edit the meal plan, and then cancel your 21-22 housing request.</li>
+                            <li>Although this would typically be done at a later time, please complete both the housing and dining applications for 22-23 academic year.</li>
+                            <li>Complete the pending form.</li>
+                        </ol>
+                    </div>
+                    <p className="mini-heading">Findings and Changes</p>
+                    <div>
+                        <ol>
+                            <li>The user flow to edit the 21-22 housing and dining application automatically opened the housing application, and some of our participants missed the ‘meal plan’ tab at first glance.<span className="arrow font-bold">{arrow}</span>We would change this to match the 22-23 begin application flow, where the landing page does not default to a specific application, and the users can choose either housing or dining. </li>
+                            <li>There appeared to be issues with the save and exit buttons, some of the participants selected this between housing and dining applications in order to save, but then they just had to go back into the application later. <span className="arrow font-bold">{arrow}</span> A way to fix this would be to just have a ‘save and continue’ and a ‘save’ button, and then an ‘x’ to exit in the top, which should limit accidental exiting.</li>
+                            {/* <li>Users were also confused if they had to click submit again after editing the application or if they could just hit save and continue (some went through and hit submit again and some did not).</li> */}
+                            <li>Some participants faced confusion with the pending form box at the top of the forms page because there’s two links to the same form.  <span className="arrow font-bold">{arrow}</span> Instead, there could be no pending form box at the top of the page and the forms that are pending could just have a box around them or a star next to them or some indication/label that the form is pending. This would help it stand out from the other forms, but be more discrete and less confusing than the entire box at the top and this way there would only be one link for users to click on.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div className="section">
+                    <h1>
+                        Want even more detail about this project?
+                    </h1>
+                    <p>
+                        View our project website: <a className="link" href="https://emmathomas36.github.io/iste264group7/">MyLife Redesign Project Website</a>
+                    </p>
+                </div>
                 {/* <div className="section">
                     <h1>
                         What did I learn? What would I change?
