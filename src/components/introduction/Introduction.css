@@ -6,7 +6,7 @@
 .my-introduction {
     line-height: 1.5em!important;
     margin-bottom: 1em;
-    margin-left: 1;
+    margin-left: 1em;
     margin-right: 1em;
 }
 
@@ -23,4 +23,8 @@
 .major {
     text-align: center;
     margin-top: 1em;
+}
+
+.intro-text {
+    text-align: left;
 }

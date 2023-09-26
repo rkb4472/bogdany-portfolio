@@ -6,23 +6,33 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  /* //background-color: #89b1cc; */
 }
 
+/* .first-section {
+  background-color: #f8dfc8;
+} */
+
 .my-card {
-  width: 884px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* width: 1000px;
   margin: auto;
-  position: relative;
+  /* position: relative; */
   margin-top: 4em;
   margin-bottom: 4em;
 }
 
 .inside-card {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 500px;
-  background-color: #f8dfc8;
-  border: 2px solid rgb(241, 214, 191);
+  left: 560px; */
+  /* background-color: #f8dfc8; */
+  /* border: 2px solid rgb(241, 214, 191); */
 }
 
 img {
@@ -53,6 +63,14 @@ img {
     left: 0;
     width: fit-content;
     margin:auto;
+  }
+  .line, .circle {
+    display: none;
+  }
+  .exp {
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

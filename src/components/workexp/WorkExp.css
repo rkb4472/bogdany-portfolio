@@ -1,0 +1,72 @@
+.outerExp {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.we-font {
+  font-size: 1.5rem;
+  margin-bottom: 2.5em;
+  margin-top: 2em;
+}
+
+.innerExp {
+    padding-left: 2em;
+    padding-right: 2em;
+    flex-wrap: wrap;
+}
+
+.gray {
+    color: gray;
+}
+
+.fullWorkExp {
+    margin-top: 6em;
+    margin-bottom: 5em;
+}
+
+.mg {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.right {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #fbc38f;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+  }
+
+  .circle1 {
+    margin: 0px 10px 0px 90px;
+  }
+
+  .circle3 {
+    margin: 0px 90px 0px 10px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: #fbc38f;
+    margin: 0 10px;
+  }
+  
+  
+  

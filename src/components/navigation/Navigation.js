@@ -23,11 +23,11 @@ export default function Navigation() {
                         MyLife Project
                         </a>
                     </Link>
-                    <Link to = "/wfssproject">
+                    {/* <Link to = "/wfssproject">
                         <a href="" class="block mt-4 lg:inline-block text-base lg:mt-0 text-black hover:text-cyan-800 mr-4">
                         WFSS Project
                         </a>
-                    </Link>
+                    </Link> */}
                     {/* <img href="../img/Bogdany_UX_Resume.pdf" alt="hello" /> */}
                     {/* <Link to = "../img/Bogdany_UX_Resume.pdf">
                     <a href="./img/Bogdany_UX_Resume.pdf" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white">

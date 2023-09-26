@@ -1,3 +1,11 @@
-.learn-more {
+/* .learn-more {
     text-align: right;
+} */
+
+.tag {
+    outline: 2px solid black;
+}
+
+.button {
+    margin-top: 1em;
 }
