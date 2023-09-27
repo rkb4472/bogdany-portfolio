@@ -33,7 +33,7 @@ export default function WorkExp() {
                     </div>
                 </div>
             </div>
-            <p className="right">Learn more about my co-op projects at <a>something.com</a>. Contact me for the password.</p>
+            <p className="right">Contact me to learn more about projects from my co-ops and internships!</p>
         </div>
         
     );

@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, Link } from 'react-router-dom'
 import './Navigation.css';
+import resume from './Bogdany_2023_Resume.pdf';
 
 export default function Navigation() {
     return (
@@ -10,7 +11,7 @@ export default function Navigation() {
                 <div class="text-sm lg:flex-grow">
                     <Link to = "/">
                         <a href="" class="block mt-4 lg:inline-block text-base lg:mt-0 text-black hover:text-cyan-800 mr-4">
-                        HOME
+                        Home
                         </a>
                     </Link>
                     <Link to = "/rcnproject">
@@ -29,12 +30,13 @@ export default function Navigation() {
                         </a>
                     </Link> */}
                     {/* <img href="../img/Bogdany_UX_Resume.pdf" alt="hello" /> */}
-                    {/* <Link to = "../img/Bogdany_UX_Resume.pdf">
-                    <a href="./img/Bogdany_UX_Resume.pdf" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-white">
-                        RESUME
-                    </a>
+                    {/* <Link to = {resume}> */}
+                    {/* <a href="./Bogdany_2023_Resume.pdf" class="block mt-4 lg:inline-block text-base lg:mt-0 text-black hover:text-cyan-800 mr-4">
+                        Resume
+                    </a> */}
+                    <a href = {resume} target = "_blank"  class="block mt-4 lg:inline-block text-base lg:mt-0 text-black hover:text-cyan-800 mr-4">Resume</a>
                         
-                    </Link> */}
+                    {/* </Link> */}
                     
                 </div>
             </div>
