@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bogdany-portfolio/static/css/main.96e989c0.css",
-    "main.js": "/bogdany-portfolio/static/js/main.befaae56.js",
+    "main.css": "/bogdany-portfolio/static/css/main.a7dab068.css",
+    "main.js": "/bogdany-portfolio/static/js/main.c5beda81.js",
     "static/js/787.30237536.chunk.js": "/bogdany-portfolio/static/js/787.30237536.chunk.js",
     "static/media/text_message.png": "/bogdany-portfolio/static/media/text_message.1285114edd8eca279cd1.png",
     "static/media/wfss_overview.png": "/bogdany-portfolio/static/media/wfss_overview.4464f769a0480e21a367.png",
@@ -10,6 +10,7 @@
     "static/media/mylife_overview.png": "/bogdany-portfolio/static/media/mylife_overview.cbc0b5bda8682f1d6386.png",
     "static/media/empathy_map.png": "/bogdany-portfolio/static/media/empathy_map.9d72b8b56dbdd0905a01.png",
     "static/media/user-journey-map.png": "/bogdany-portfolio/static/media/user-journey-map.6e94d9064fa82d99048a.png",
+    "static/media/Bogdany_2023_Resume.pdf": "/bogdany-portfolio/static/media/Bogdany_2023_Resume.615d59e9e5a6b62a5703.pdf",
     "static/media/old_flow.png": "/bogdany-portfolio/static/media/old_flow.1e1e6fdfeb5f57b45f4e.png",
     "static/media/rcn_overview.png": "/bogdany-portfolio/static/media/rcn_overview.1bdff0e9c33e2228dec2.png",
     "static/media/mylife.jpg": "/bogdany-portfolio/static/media/mylife.11a1ea6b2e9564c8caad.jpg",
@@ -21,12 +22,12 @@
     "static/media/wfssWebsite2.jpg": "/bogdany-portfolio/static/media/wfssWebsite2.5d1ac2e3d1f47bfe7e33.jpg",
     "static/media/new_flow.png": "/bogdany-portfolio/static/media/new_flow.4dd75445bb302b94f887.png",
     "index.html": "/bogdany-portfolio/index.html",
-    "main.96e989c0.css.map": "/bogdany-portfolio/static/css/main.96e989c0.css.map",
-    "main.befaae56.js.map": "/bogdany-portfolio/static/js/main.befaae56.js.map",
+    "main.a7dab068.css.map": "/bogdany-portfolio/static/css/main.a7dab068.css.map",
+    "main.c5beda81.js.map": "/bogdany-portfolio/static/js/main.c5beda81.js.map",
     "787.30237536.chunk.js.map": "/bogdany-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96e989c0.css",
-    "static/js/main.befaae56.js"
+    "static/css/main.a7dab068.css",
+    "static/js/main.c5beda81.js"
   ]
 }
